@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body{
+    background: rgb(47, 51, 55);
+}
+.dark{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("images/login_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    opacity: 0.3;
+}
+
+#container{
+    position: absolute;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+label{
+    color: green;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
+
+h1{
+    margin: 0px;
+    font-size: 25px;
+    text-align: center;
+    color: darkgreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+hr{
+    border-color: green;
+    background-color: green;
+    margin: 0px 0px 10px;
+}
+
+form {
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#container form{
+    width:400px;
+}
+
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=submit] ,button{
+    background-color: green;
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px auto;
+    width: 70%;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+input[type=submit]:hover ,button:hover{
+    background-color: darkgreen;
+}
+
+form > a{
+    text-decoration: none;
+    color: green;
+    display: block;
+    text-align: center;
+}
+
+button{
+    height: 40px;
+    padding: 0px;
+}
+button > a{
+    text-decoration: none;
+    padding-top: 10px;
+    color: white;
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+/*************************Inscrire******************************/
+
+#container_inscrire form{
+    width: 600px;
+    height: 550px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+#container_inscrire{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+table{
+    width: 100%;
+}
+td:first-child{
+    width: 35%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

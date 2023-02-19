@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achetes>
+  <achete numclient="2" numproduit="1">
+    <quantite>5</quantite>
+  </achete>
+  <achete numclient="2" numproduit="2">
+    <quantite>1</quantite>
+  </achete>
+  <achete numclient="1" numproduit="6">
+    <quantite>1</quantite>
+  </achete>
+  <achete numclient="1" numproduit="1">
+    <quantite>0</quantite>
+  </achete>
+  <achete numclient="1" numproduit="6">
+    <quantite>0</quantite>
+  </achete>
+  <achete numclient="1" numproduit="1">
+    <quantite>0</quantite>
+  </achete>
+  <achete numclient="1" numproduit="1">
+    <quantite>0</quantite>
+  </achete>
+  <achete numclient="1" numproduit="1">
+    <quantite>3</quantite>
+  </achete>
+  <achete numclient="1" numproduit="6">
+    <quantite>4</quantite>
+  </achete>
+  <achete numclient="1" numproduit="6">
+    <quantite>3</quantite>
+  </achete>
+  <achete numclient="1" numproduit="6">
+    <quantite>3</quantite>
+  </achete>
+  <achete numclient="1" numproduit="6">
+    <quantite>0</quantite>
+  </achete>
+  <achete numclient="1" numproduit="2">
+    <quantite>0</quantite>
+  </achete>
+  <achete numclient="1" numproduit="6">
+    <quantite>0</quantite>
+  </achete>
+  <achete numclient="1" numproduit="5">
+    <quantite>5</quantite>
+  </achete>
+  <achete numclient="1" numproduit="6">
+    <quantite>0</quantite>
+  </achete>
+  <achete numclient="1" numproduit="19">
+    <quantite>4</quantite>
+  </achete>
+  <achete numclient="1" numproduit="2">
+    <quantite>1</quantite>
+  </achete>
+  <achete numclient="1" numproduit="35">
+    <quantite>1</quantite>
+  </achete>
+  <achete numclient="4" numproduit="27">
+    <quantite>10</quantite>
+  </achete>
+  <achete numclient="4" numproduit="1">
+    <quantite>2</quantite>
+  </achete>
+  <achete numclient="4" numproduit="2">
+    <quantite>4</quantite>
+  </achete>
+  <achete numclient="4" numproduit="33">
+    <quantite>3</quantite>
+  </achete>
+  <achete numclient="4" numproduit="2">
+    <quantite>3</quantite>
+  </achete>
+  <achete numclient="5" numproduit="2">
+    <quantite>2</quantite>
+  </achete>
+  <achete numclient="61" numproduit="35">
+    <quantite>3</quantite>
+  </achete>
+  <achete numclient="64" numproduit="33">
+    <quantite>2</quantite>
+  </achete>
+  <achete numclient="87" numproduit="35">
+    <quantite>1</quantite>
+  </achete>
+  <achete numclient="93" numproduit="3">
+    <quantite>2</quantite>
+  </achete>
+  <achete numclient="93" numproduit="28">
+    <quantite>3</quantite>
+  </achete>
+  <achete numclient="93" numproduit="26">
+    <quantite>2</quantite>
+  </achete>
+</achetes>

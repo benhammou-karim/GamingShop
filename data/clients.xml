@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clients>
+  <client numclient="91">
+    <prenom>karim</prenom>
+    <nom>benhammou</nom>
+    <adresse>karim 1234</adresse>
+    <code_postal>1234</code_postal>
+    <ville>Meknes</ville>
+    <tel>0612345678</tel>
+    <mail>karimboooo@gmail.com</mail>
+    <user>karim12</user>
+    <img>../Styles/images/profiles/91me.jpeg</img>
+    <admin>1</admin>
+    <passwd>3b004ac6d8a602681f5ee3587c924855679e21d9</passwd>
+  </client>
+  <client numclient="93">
+    <prenom>karim</prenom>
+    <nom>karim</nom>
+    <adresse>karim;</adresse>
+    <code_postal>12345</code_postal>
+    <ville>karim</ville>
+    <tel>0123456</tel>
+    <mail>karimboooo192@gmail.com</mail>
+    <user>karimwalid</user>
+    <img>../Styles/images/profiles/93me.jpeg</img>
+    <admin>0</admin>
+    <passwd>3b004ac6d8a602681f5ee3587c924855679e21d9</passwd>
+  </client>
+</clients>

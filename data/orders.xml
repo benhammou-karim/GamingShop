@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orders>
+  <order numorder="25">
+    <total>551</total>
+    <total_prod>66;485;</total_prod>
+    <quantite>2;1;</quantite>
+    <status>Completed</status>
+    <payment_status>Payment Received</payment_status>
+    <payment_methode>Bank Transfer</payment_methode>
+    <numclient>93</numclient>
+    <numproduit>35;24;</numproduit>
+  </order>
+</orders>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<avis>
+  <avi>
+    </avi>
+  <avi numclient="93" numproduit="35">
+    <rate>4</rate>
+    <avi>GREAT</avi>
+  </avi>
+  <avi numclient="93" numproduit="24">
+    <rate>3</rate>
+    <avi>COOL!!&#13;
+</avi>
+  </avi>
+</avis>

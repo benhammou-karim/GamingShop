@@ -1,0 +1,184 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+header{
+	height: auto;
+	background-color: #19191E;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header img{
+	margin: 5px 5% 5px 1%;
+	width: 150px;
+	height: auto;
+	flex-grow: 1;
+}
+
+nav{
+	flex-grow: 20;
+}
+
+.logo{
+	cursor: pointer;
+}
+
+.login{
+	flex-grow: 1;
+}
+
+.nav_links,.login ul{
+	height: 100%;
+	display: flex;
+}
+
+.nav_links li,.login li{
+	list-style: none;
+	display: inline-block;
+	height: 100%;
+	margin: 0px;
+}
+
+.nav_links li > a,.login li > a{
+	text-decoration: none;
+	padding: 0px 10px;
+	display: flex;
+	height: 100%;
+	color: white;
+	font-family: arial;
+	justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.nav_links li > a:hover,.login li > a:hover{
+	background-color: #44D62C;
+	color: #19191E;
+}
+
+.menu_icon{
+	display: none;
+}
+
+#userimg{
+	width: 50px;
+	height: 50px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+
+/***************************** Style The Dropdown Button *************************/
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #44D62C;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+
+.login .dropdown-content{
+	right: 0px;
+}
+
+.dropdown-content a{
+	color: #19191E;
+	text-decoration: none;
+	display: block;
+	padding: 12px 5px;
+	text-transform: capitalize;
+}
+
+.dropdown-content a:hover {
+	background-color: darkgreen;
+	color: #fff;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #44D62C;
+}
+
+.hideit{
+	display: none;
+	height: 0px;
+	overflow: hidden;
+}
+
+
+/* Display change */
+@media only screen and (max-width: 900px) {
+	header{
+		display: block;
+	}
+
+	header img{
+		margin: 0px auto;
+		padding: 10px;
+		width: 40%;
+		display: inline-block;
+	}
+	.menu_icon{
+		display: inline-block;
+		float: right;
+		width: 10%;
+		margin: 2% 0px 0px;
+		cursor: pointer;
+	}
+	nav{
+		display: block;
+	}
+
+	.nav_links,.login ul{
+		display: block;
+	}
+
+	.login{
+		display: block;
+	}
+
+	.nav_links li,.login li{
+		display: block;
+	}
+
+	.nav_links li a,.login li a{
+		padding: 10px 10px;
+		font-size: 2rem;
+	}
+
+	.menuphone{
+		background-color: lightgrey;
+		height: 0px;
+		overflow: hidden;
+	}
+
+	.dropdown-content {
+		position: relative;
+		width: 100%;
+	}
+
+	.dropdown:active .dropdown-content {
+		display: block;
+	}
+
+	.dropdown-content a{
+		text-align: center;
+		padding: 12px 0px;
+	}
+
+	#userimg{
+		display: none;
+	}
+}

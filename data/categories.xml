@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<categories>
+  <categorie numcat="1">
+    <libelle>Souries</libelle>
+  </categorie>
+  <categorie numcat="4">
+    <libelle>Carte graphique</libelle>
+  </categorie>
+  <categorie numcat="5">
+    <libelle>Tapis</libelle>
+  </categorie>
+  <categorie numcat="6">
+    <libelle>Manettes</libelle>
+  </categorie>
+  <categorie numcat="7">
+    <libelle>Claviers</libelle>
+  </categorie>
+</categories>

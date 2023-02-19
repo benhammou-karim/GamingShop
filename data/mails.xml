@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mails>
+  <mail nummail="1">
+    <from>karimboooo192@gmail.com</from>
+    <nom>karim</nom>
+    <prenom>karim</prenom>
+    <subject>OOO</subject>
+    <msg>TEST</msg>
+  </mail>
+</mails>
